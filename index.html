@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Localized Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Localized Marketing Assistant</h1>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </header>
+    <main>
+
+        <section id="ad-generator">
+            <h2>Generate Ad Copy</h2>
+            <form id="adForm">
+                <label for="businessDescription">Describe Your Business:</label>
+                <input type="text" id="businessDescription" placeholder="e.g., A cozy coffee shop in Kigali">
+                <button type="submit">Generate</button>
+            </form>
+            <div id="adOutput"></div>
+        </section>
+
+        <section id="customer-insights">
+            <h2>Customer Insights</h2>
+            <p>Top Trends in Your Area:</p>
+            <ul>
+                <li>Fitness classes are in demand.</li>
+                <li>Organic products are gaining popularity.</li>
+            </ul>
+            <p>Customer Demographics:</p>
+            <ul>
+                <li>50% of customers are aged 18-35.</li>
+                <li>70% prefer mobile-friendly websites.</li>
+            </ul>
+        </section>
+        <canvas id="customerChart" width="400" height="200"></canvas>
+    </main>
+</body>
+</html>
